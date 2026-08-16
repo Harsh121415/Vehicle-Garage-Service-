@@ -1,0 +1,15 @@
+package com.example.localvehicleandgaragebookingapp.profile
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.material3.Text
+
+class ProfileActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            Text(text = "Profile Screen")
+        }
+    }
+}

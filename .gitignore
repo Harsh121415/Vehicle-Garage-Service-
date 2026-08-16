@@ -1,0 +1,18 @@
+# Android / Gradle
+frontend/.gradle/
+frontend/.idea/
+frontend/.kotlin/
+frontend/build/
+frontend/app/build/
+frontend/local.properties
+
+# Spring Boot / Maven
+backend/target/
+backend/.idea/
+
+# IDE
+*.iml
+
+# Environment / secrets
+.env
+**/.env
